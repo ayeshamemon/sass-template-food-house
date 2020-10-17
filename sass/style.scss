@@ -1,0 +1,22 @@
+@import "./utilities/variables"; //all variables
+@import "./base/reset"; //default browser values have been reset here
+@import "./base/typography.scss"; //all headers like h2,h3,ets
+@import "./base/global"; //global values have been set here eg-to body
+
+// layouts
+@import "./layout/header";
+@import "./layout/navbar";
+@import "./layout/food-about";
+@import "./layout/food-offer";
+@import "./layout/food-menu";
+
+@import "./layout/food-testimonials";
+@import "./layout/food-footer";
+
+//reusable components
+@import "./reuse_components/components";
+
+
+
+
+

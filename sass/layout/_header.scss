@@ -1,0 +1,23 @@
+.food-header{
+    width: 100%;
+    height: 600px;
+    background-image: url("../../images/food-header.jpg");
+    //clip-path: polygon(0 0,100% 0,100% 90%,0% 100%);
+}
+
+.site-heading{
+    font-family: 'Merienda';
+    color: $white-color;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.site-subheading{
+    font-size: 20px;
+    color: $white-color;
+    letter-spacing: 6px;
+}
+
+.mb-auto{
+    margin-bottom: auto;
+}

@@ -1,0 +1,7 @@
+semantic ui - css library 
+
+in js fetch data and display in table format 
+last colomn should be of buttons
+
+
+

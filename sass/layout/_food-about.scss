@@ -1,0 +1,43 @@
+.about-text{
+    line-height: 40px;
+    color: #555;
+}
+
+figure{
+    width: 550px;
+    height: 400px;
+    img{
+        width: 100%;
+        height: 100%;
+        box-shadow: 0px 0px 10px 2px rgba($color: #000000, $alpha: 0.2);
+
+    }
+}
+
+.food-about{
+    padding: 50px 0;
+}
+
+.food-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: $primary-color;
+    color: $white-color;
+    border-radius: 50%;
+    i{
+        font-size: 30px;
+    }
+}
+
+//about section image
+.rounded-img{
+    border-radius: 4px;
+}
+
+// only the cafe in about section(h4) is span and has class of green color
+.color-primary{
+    color:$primary-color;
+}

@@ -1,0 +1,61 @@
+.food-footer{
+    padding: 80px 0;
+    background-color: #222;
+    color: $white-color;
+
+}
+
+.footer-heading{
+    font-family: 'Merienda',sans-serif;
+    font-size: 30px;
+    color: $primary-color;
+    margin-bottom: 30px;
+
+}
+
+.footer-text{
+    line-height: 40px;
+}
+
+.social-icons{
+    list-style-type: none;
+    margin-top: 30px;
+    display: flex;
+
+    li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        background-color: $primary-color;
+        margin-right: 20px;
+        border-radius: 50%;
+        transition: 0.4s all;
+
+        &:hover{
+            background-color: $white-color;
+            color: $primary-color;
+        }
+    }
+
+
+}
+
+.payment-methods{
+    color: $primary-color;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+.pay-list{
+    list-style: none;
+    display: flex;
+    margin-right: 30px;
+
+    li{
+        margin-right: 30px;
+        height: 50px;
+    }
+}
